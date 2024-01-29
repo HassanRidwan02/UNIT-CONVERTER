@@ -1,0 +1,91 @@
+/* background: #6943FF;
+#5A537B */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: #000;
+}
+
+.main{
+    background: #6943FF;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.main .top{
+    /* width: 50%; */
+    text-align: center;
+    padding: 50px;
+}
+
+.main .top input{
+    color: #fff;
+    background-color: #6943FF;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 900;
+    width: 150px;
+    height: 50px;
+    min-width: 50px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.main .top input:focus{
+    outline: none;
+}
+
+button{
+    font-size: 1.5rem;
+    color: #5A537B;
+    background-color: #fff;
+    padding: 10px 20px;
+    /* margin: 10px 0; */
+    border-radius: 10px;
+    width: 180px;
+    border: none;
+    margin: 20px 0;
+}
+
+.main .bottom {
+    background-color: #F4F4F4;
+    color: #6943FF;
+    /* margin: 100px 0; */
+    padding: 15px 0;
+}
+
+.rows {
+    background-color: #fff;
+    padding: 10px 50px;
+    /* color: #6943FF; */
+    width: 90%;
+    height: 100px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.row-1 {
+    margin-top: 20px;
+}
+
+.rows h2 {
+    color: #6943FF;
+}
+
+.rows p{
+    color: #000;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
